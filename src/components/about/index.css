@@ -1,0 +1,227 @@
+.container_about{
+    height:100vh;
+    padding:0rem 5rem ;
+    padding-top:7rem;
+}
+.container_1_about{
+    width:30vw;
+    margin-left:5rem;
+}
+.container_2_about{
+    width:50vw;
+    padding:2rem 0rem;
+    box-shadow:0px 10px 20px rgba(0, 0, 0, 0.474);
+    padding:1rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:1px solid #0e1d32;
+    border-left:5px solid #0e1d32;
+    border-top:5px solid #0e1d32;
+}
+.heading_about{
+    font-size:2.5rem;
+    color:#102542;
+}
+.para_1_about{
+    font-size:1.2rem ;
+    font-weight:400;
+    color: #0e1d32;
+    letter-spacing:1px;
+}
+.para_1_about span{
+    font-size:1.25rem;
+    color:#a31621;
+    font-weight:400;
+}
+.container_items_about{
+    display:flex;
+    padding:2rem 0rem;
+}
+.card_artist{
+    height:60vh;
+    margin:0rem 4rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border:1px solid #0e1d32;
+    border-right:5px solid #0e1d32;
+    border-top:5px solid #0e1d32;
+    box-shadow:0px 10px 20px rgba(0, 0, 0, 0.474);
+    padding:0.6rem;
+}
+.artist_image{
+    width:100%;
+    height:100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.container_cards_social_videos{
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10rem;
+    padding:3rem 5rem;
+}
+.explore_social_videos{
+     padding:0rem 5rem ;
+}
+.instagram-media{
+    height:410px;
+}
+/* google review */
+/* Google Reviews Section */
+.google-reviews-container {  
+    background-color: white;
+  border-radius:20px;
+  box-shadow:0px 0px 20px -5px black;
+  padding: 2rem 12rem;
+  margin:3rem;
+}
+
+.heading-google-reviews {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  color: #303030;
+}
+
+.container-cards-google {
+  width: 1164.75px;
+  height: 221px;
+  gap: 69px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.google-intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 20%;
+}
+
+.google-intro-img {
+  width: 55px;
+  height: 65px;
+  margin-top:0.5rem;
+}
+
+.container-ratings {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left:2.3rem;
+}
+
+.horizontal-line-google-intro {
+  margin: 0 0.4rem;
+  border: 1px solid #a31621;
+  width: 10%;
+  transform: rotate(90deg);
+}
+
+.rating-star-intro {
+  width: 29.25px;
+  height: 29.25px;
+  border-radius: 0.75px;
+}
+
+.rating-txt-google-intro {
+  font-family: "Figtree", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: #303030;
+}
+
+.counts-google-intro {
+  font-family: "Figtree", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: #ea7d28;
+  margin-bottom: 0.3rem;
+}
+
+.para-google-intro {
+  font-family: "Figtree", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #474747;
+}
+
+.horizontal-line-google-review {
+  border: 1px solid #ffddc1;
+  height: 80%;
+}
+
+.cards-google-review-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.card-google-review {
+  padding: 0;
+  gap: 18px;
+  border-radius: 15px;
+  background-color: #1327420d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  min-width:15rem;
+  max-width:15.1rem;
+  padding:0.5rem;
+}
+
+.google-logo-corner {
+  position: absolute;
+  background-color: #ffebc4;
+  padding: 1.6rem 1.5rem 0.3rem 0.6rem;
+  border-radius: 50%;
+  z-index: 4;
+  top: -20px;
+  right: -20px;
+}
+
+.image-corner-google-logo {
+  width: 27px;
+  height: 30px;
+}
+
+.reviewer_logo {
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-name-google {
+  font-family: "Figtree", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: #000;
+}
+
+.image_star_ratings {
+  width: 15px; /* fixed invalid unit */
+  height: 15px;
+}
+
+.para-reviewer-google {
+  font-family: "Figtree", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #464646;
+  text-align: center;
+}

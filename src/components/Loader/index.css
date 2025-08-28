@@ -1,0 +1,9 @@
+.container_loader{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    }
+.container_loader h1{
+    color:#0A3EC2;
+}

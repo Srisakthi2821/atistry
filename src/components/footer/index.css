@@ -1,0 +1,129 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 2rem;
+  background-color: #102542;
+}
+.section1 {
+  max-width: 25vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.section1 div {
+  display: flex;
+  align-items: center;
+}
+.logo_footer {
+  height: 5rem;
+}
+.footer_sec_1_heading {
+  font-size: 2.5rem;
+  color: #ff2537;
+}
+.desc_footer {
+  font-size: 1rem;
+  color: #b8b8b8;
+  font-weight:350;
+  margin-left: 1rem;
+}
+.contanier_social_links {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding-left: 1rem;
+  padding-top:1rem;
+  
+}
+.contanier_social_links div{
+    padding:0.6rem;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.icon_footer_links {
+  height: 3rem;
+  width: 3rem;
+}
+
+.insta_footer_container {
+  background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+  color:white;
+  border-radius:100%;
+  transition: color 0.3s ease;
+}
+.insta_footer_container:hover{
+    color:white;
+  background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);  
+    border-radius:100%;
+    padding:0.6rem;
+    transform: translateY(-10px);
+}
+.insta_footerIcon{
+    height:2rem;
+    width:2rem;
+}
+.whatsapp_footer_container {
+  color: #25d366;
+}
+.whatsapp_footer_container:hover{
+      background:white;
+    border-radius:100%;
+    padding:0.6rem;
+    transform: translateY(-10px);
+    color: #1da851;
+}
+.youtube_footer_container {
+  color: #ff0000;
+}
+.youtube_footer_container:hover{
+      background:white;
+    border-radius:100%;
+    padding:0.6rem;
+    transform: translateY(-10px);
+    color: #cc0000;
+}
+.facebook_footer_container {
+  color: #1877f2;
+}
+.facebook_footer_container:hover{
+      background:white;
+    border-radius:100%;
+    padding:0.6rem;
+    transform: translateY(-10px);
+    color: #0e5dc5;
+}
+.section2{
+    padding-top:1.7rem;
+}
+.section3{
+    padding-top:1.7rem;
+}
+.footer_sec2_heading{
+      font-size: 2rem;
+  color: #d02836;
+}
+.link_sec2{
+    color:#b8b8b8;
+    font-size:1rem;
+    font-weight:300;
+    margin:0.5rem 0rem;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+}
+.link_sec2:hover{
+    color:white;
+}
+.final_footer{
+    background-color: #102542;
+    border-top:1px solid rgba(255, 255, 255, 0.293);
+    padding:0.5rem 0rem;
+    text-align: center;
+}
+.final_footer p{
+    color:white;
+    font-weight:200;
+}
+.link_sec2 span{
+  margin:0rem 0.2rem;
+}
