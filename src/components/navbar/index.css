@@ -70,7 +70,7 @@
   display: none;
 }
 /*************** mobile devices*********************/
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .link {
     all: unset;
     cursor: pointer;
