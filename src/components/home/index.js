@@ -373,7 +373,7 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
           <h1 className="recent_artworks_title">
             Featured  <span>Art works</span>{" "}
           </h1>
-          <div style={{ width: "100vw", height: "70vh", margin: "0 auto" }}>
+          <div style={{ width: "100vw", height: "80vh", margin: "0 auto" }}>
             <Slider {...settings} className="carousel_slider">
               <div className="carousel_slider_card">
                 <img src={recent_arts_1} alt="card carousel images" />
