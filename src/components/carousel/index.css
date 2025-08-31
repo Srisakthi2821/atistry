@@ -3,7 +3,7 @@
   margin-top: 3rem;
   padding: 1rem;
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 400px) {
   .sm_dev_recent_art_works {
     display: block;
     margin-top: 3rem;

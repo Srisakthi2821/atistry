@@ -227,7 +227,10 @@
 }
 
 /*************** mobile devices*********************/
-@media screen and (max-width: 375px) {
+/*************** mobile devices*********************/
+/*************** mobile devices*********************/
+/*************** mobile devices*********************/
+@media screen and (max-width: 400px) {
   .container_about {
     height: 100vh;
     padding: 0rem 0.5rem;

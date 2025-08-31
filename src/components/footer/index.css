@@ -126,8 +126,12 @@
 .link_sec2 span {
   margin: 0rem 0.2rem;
 }
-
-@media screen and (max-width: 375px) {
+/*********************** mobile devices*******************/
+/*********************** mobile devices*******************/
+/*********************** mobile devices*******************/
+/*********************** mobile devices*******************/
+/*********************** mobile devices*******************/
+@media screen and (max-width: 400px) {
   .footer {
     display: flex;
     flex-direction: column;

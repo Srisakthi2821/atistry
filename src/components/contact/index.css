@@ -104,7 +104,7 @@ input:focus {
 /*************** mobile devices*********************/
 /*************** mobile devices*********************/
 /*************** mobile devices*********************/
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .Contact_Heading {
     color: white;
   }
