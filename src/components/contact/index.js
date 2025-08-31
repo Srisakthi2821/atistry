@@ -98,7 +98,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="form" data-aos="fade-up">
-          <img src={contact_img} className="contact_img" alt="contact" data-aos="slide-left"/>
+          <img loading='lazy' src={contact_img} className="contact_img" alt="contact" data-aos="slide-left"/>
           <h1 className="heading_form">Anything else to convey?</h1>
           <label htmlFor="name">Name :</label>
           <input

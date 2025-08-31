@@ -161,7 +161,7 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
     return (
       <>
         <div className="home_container">
-        <img src={logo_transparent} className="logo_home_page" data-aos='fade' alt='logo'/>
+        <img loading='lazy' src={logo_transparent} className="logo_home_page" data-aos='fade' alt='logo'/>
           <div className="home_part1_container">
             <img
               src={home_main_img}
@@ -170,7 +170,7 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
             />
           </div>
           <div className="home_part2_container">
-            <img src={bg_dotted} className="bg_dotted_home" alt="bg dotted" />
+            <img loading='lazy' src={bg_dotted} className="bg_dotted_home" alt="bg dotted" />
             <p className="micro_tag_line">"Where art meets heart ❤️"</p>
             <h1 className="home_title">Robby Artistry</h1>
             <p className="location_text_home">
@@ -209,11 +209,11 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
           </div>
         </div>
         <div className="recently_sold_container">
-          <img src={recentSoldImage} alt='Recently Sold Image' className="recently_sold_image"/>
+          <img loading='lazy' src={recentSoldImage} alt='Recently Sold Image' className="recently_sold_image"/>
           <div className="part_2_recently_sold">
             <h1><span>{recentSoldName}</span> from <span>{recentSoldPlace}</span> has recently bought the <span>{recentSoldCategory}</span> From Robby Artistry.</h1>
             <p>Booked a Slot Now <span><MdVerified className="verified_rece_sold"/></span></p>
-              <img src={booked_img} alt='booked' className="booked_img"/>
+              <img loading='lazy' src={booked_img} alt='booked' className="booked_img"/>
           </div>
         </div>
         <div className="container_categories">
@@ -377,22 +377,22 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
           <div style={{ width: "100vw", height: "80vh", margin: "0 auto" }}>
             <Slider {...settings} className="carousel_slider">
               <div className="carousel_slider_card">
-                <img src={recent_arts_1} alt="card carousel images" />
+                <img loading='lazy' src={recent_arts_1} alt="card carousel images" />
               </div>
               <div className="carousel_slider_card">
-                <img src={recent_arts_2} alt="card carousel images" />
+                <img loading='lazy' src={recent_arts_2} alt="card carousel images" />
               </div>
               <div className="carousel_slider_card">
-                <img src={recent_arts_3} alt="card carousel images" />
+                <img loading='lazy' src={recent_arts_3} alt="card carousel images" />
               </div>
               <div className="carousel_slider_card">
-                <img src={recent_arts_4} alt="card carousel images" />
+                <img loading='lazy' src={recent_arts_4} alt="card carousel images" />
               </div>
               <div className="carousel_slider_card">
-                <img src={recent_arts_5} alt="card carousel images" />
+                <img loading='lazy' src={recent_arts_5} alt="card carousel images" />
               </div>
               <div className="carousel_slider_card">
-                <img src={recent_arts_6} alt="card carousel images" />
+                <img loading='lazy' src={recent_arts_6} alt="card carousel images" />
               </div>
             </Slider>
           </div>
@@ -401,7 +401,7 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
         </div>
         <RecentArtWorks/>
         <div className="get_your_art_container">
-        <img src={paint_dot_1} alt="paint dot" className="paint_dot_image" data-aos="fade-right"/>
+        <img loading='lazy' src={paint_dot_1} alt="paint dot" className="paint_dot_image" data-aos="fade-right"/>
         <p className="dot_image_text">Matt<br/> Finish</p>
           <h1 className="heading_gya">
             {" "}
@@ -423,9 +423,9 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
         </div>
         <div className="art_process_container">
         
-        <img src={image_art_process} alt='love_png' className="image_love" data-aos="fade-right"/>
+        <img loading='lazy' src={image_art_process} alt='love_png' className="image_love" data-aos="fade-right"/>
           <div className="art_process_card">
-          <img src={clock} className="clock_gif" alt="art duration"/>
+          <img loading='lazy' src={clock} className="clock_gif" alt="art duration"/>
           <h1 className="art_process_heading">Your Artwork Timeline</h1>
           <ul className="list_art_precess">
           

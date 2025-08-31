@@ -81,7 +81,7 @@ const Star = () => (
       <div className="container_items_about">
         <div className="container_1_about" data-aos="fade-up">
           <div className="card_artist">
-            <img src={artist} className="artist_image" alt="artist" />
+            <img loading='lazy' src={artist} className="artist_image" alt="artist" />
           </div>
         </div>
         <div className="container_2_about" data-aos="fade-up">
@@ -159,7 +159,7 @@ const Star = () => (
                 />
               </div>
 
-              <img src={r.avatar} className="reviewer_logo" alt="reviewer" />
+              <img loading='lazy' src={r.avatar} className="reviewer_logo" alt="reviewer" />
               <h1 className="reviewer-name-google">{r.name}</h1>
 
               <div className="ratings_reviewer-google">

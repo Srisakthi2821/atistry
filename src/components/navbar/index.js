@@ -22,7 +22,7 @@ const toggleSmNavActive = () => {
     <>
     <nav className="navbar">
       <Link to='/' className="link"><div className="navbar-logo">
-        <img src={logo_transparent} className="logo" alt="logo" />
+        <img loading='lazy' src={logo_transparent} className="logo" alt="logo" />
         <h1 className="navbar-title">Robby Artistry</h1>
       </div>
       </Link>
@@ -32,7 +32,7 @@ const toggleSmNavActive = () => {
           to="/"
           className={`navbar-link ${currentPath === "/" ? "active_navbar" : ""}`}
         >
-          <img src={home_gif} alt="nav icon" />
+          <img loading='lazy' src={home_gif} alt="nav icon" />
           Home
         </Link>
 
@@ -40,7 +40,7 @@ const toggleSmNavActive = () => {
           to="/arts"
           className={`navbar-link ${currentPath === "/arts" ? "active_navbar" : ""}`}
         >
-          <img src={gallery_gif} alt="nav icon" />
+          <img loading='lazy' src={gallery_gif} alt="nav icon" />
           Arts
         </Link>
 
@@ -48,7 +48,7 @@ const toggleSmNavActive = () => {
           to="/about"
           className={`navbar-link ${currentPath === "/about" ? "active_navbar" : ""}`}
         >
-          <img src={about_gif} alt="nav icon" />
+          <img loading='lazy' src={about_gif} alt="nav icon" />
           About
         </Link>
 
@@ -56,7 +56,7 @@ const toggleSmNavActive = () => {
           to="/contact"
           className={`navbar-link ${currentPath === "/contact" ? "active_navbar" : ""}`}
         >
-          <img src={contact_gif} alt="nav icon" />
+          <img loading='lazy' src={contact_gif} alt="nav icon" />
           Contact
         </Link>
       </div>
@@ -73,7 +73,7 @@ const toggleSmNavActive = () => {
           to="/"
           className={`navbar-link ${currentPath === "/" ? "active_navbar" : ""}`}
         >
-          <img src={home_gif} alt="nav icon" />
+          <img loading='lazy' src={home_gif} alt="nav icon" />
           Home
         </Link>
 
@@ -81,7 +81,7 @@ const toggleSmNavActive = () => {
           to="/arts"
           className={`navbar-link ${currentPath === "/arts" ? "active_navbar" : ""}`}
         >
-          <img src={gallery_gif} alt="nav icon" />
+          <img loading='lazy' src={gallery_gif} alt="nav icon" />
           Arts
         </Link>
 
@@ -89,7 +89,7 @@ const toggleSmNavActive = () => {
           to="/about"
           className={`navbar-link ${currentPath === "/about" ? "active_navbar" : ""}`}
         >
-          <img src={about_gif} alt="nav icon" />
+          <img loading='lazy' src={about_gif} alt="nav icon" />
           About
         </Link>
 
@@ -97,7 +97,7 @@ const toggleSmNavActive = () => {
           to="/contact"
           className={`navbar-link ${currentPath === "/contact" ? "active_navbar" : ""}`}
         >
-          <img src={contact_gif} alt="nav icon" />
+          <img loading='lazy' src={contact_gif} alt="nav icon" />
           Contact
         </Link>
       </div>

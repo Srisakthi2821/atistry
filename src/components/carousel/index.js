@@ -52,15 +52,15 @@ const RecentArtWorks = () => {
         <div className="carousel-inner">
 
           <div className="carousel-item active">
-            <img src={recent_arts_1} alt="..." />
+            <img loading='lazy' src={recent_arts_1} alt="..." />
           </div>
 
           <div className="carousel-item">
-            <img src={recent_arts_2} alt="..." />
+            <img loading='lazy' src={recent_arts_2} alt="..." />
           </div>
 
           <div className="carousel-item">
-            <img src={recent_arts_3} alt="..." />
+            <img loading='lazy' src={recent_arts_3} alt="..." />
           </div>
 
         </div>

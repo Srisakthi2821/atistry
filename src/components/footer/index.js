@@ -16,7 +16,7 @@ const Footer = () => (
   <div className="footer">
     <div className="section1">
       <div>
-        <Link to='/' className="link"><img src={logo_transparent} alt="logo" className="logo_footer" /></Link>
+        <Link to='/' className="link"><img loading='lazy' src={logo_transparent} alt="logo" className="logo_footer" /></Link>
         <Link to='/' className="link"><h1 className="footer_sec_1_heading">Robby Artistry</h1></Link>
       </div>
       <p className="desc_footer">

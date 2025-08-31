@@ -284,7 +284,7 @@ const Arts = () => {
         </div>
         {bloodArts.map((eachImage) => (
           <div className="card_art_item" data-aos="fade-left">
-            <img src={eachImage} className="card_arts_image" alt="art" />
+            <img loading='lazy' src={eachImage} className="card_arts_image" alt="art" />
             <div
               className="sub_card_card_art"
               onClick={() => openImage(eachImage)}
@@ -323,7 +323,7 @@ const Arts = () => {
         </div>
         {pencilArts.map((eachImage) => (
           <div className="card_art_item" data-aos="fade-left">
-            <img src={eachImage} className="card_arts_image" alt="art" />
+            <img loading='lazy' src={eachImage} className="card_arts_image" alt="art" />
             <div
               className="sub_card_card_art"
               onClick={() => openImage(eachImage)}
@@ -363,7 +363,7 @@ const Arts = () => {
         </div>
         {digitalArts.map((eachImage) => (
           <div className="card_art_item" data-aos="fade-left">
-            <img src={eachImage} className="card_arts_image" alt="art" />
+            <img loading='lazy' src={eachImage} className="card_arts_image" alt="art" />
             <div
               className="sub_card_card_art"
               onClick={() => openImage(eachImage)}
@@ -403,7 +403,7 @@ const Arts = () => {
         </div>
         {imaginaryArts.map((eachImage) => (
           <div className="card_art_item" data-aos="fade-left">
-            <img src={eachImage} className="card_arts_image" alt="art" />
+            <img loading='lazy' src={eachImage} className="card_arts_image" alt="art" />
             <div
               className="sub_card_card_art"
               onClick={() => openImage(eachImage)}
