@@ -12,15 +12,17 @@ import Loader from "./components/Loader";
 
 import "./App.css";
 
+
 const App = () => {
   const location = useLocation();
   const [loading, setLoading] = useState(false);
 
+  
   useEffect(() => {
     if (location.pathname === "/") {
       // show loader ONLY for home
       setLoading(true);
-      const timer = setTimeout(() => setLoading(false), 50); // 3 sec
+      const timer = setTimeout(() => setLoading(false), 5000); // 3 sec
       return () => clearTimeout(timer);
     } else {
       setLoading(false);
