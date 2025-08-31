@@ -270,7 +270,7 @@
     height:100%;
   }
   .card_artist {
-    height: 60vh;
+    height: 50vh;
     width:80vw;
     border-radius: 20px;
     border: 1px solid #0e1d32;
@@ -322,7 +322,6 @@
   .google-intro-img {
     width: 60px;
     height:fit-content;
-    margin-top: 40px;
     margin-right: 20px;
   }
   .google-intro-container {
@@ -343,7 +342,7 @@
   }
   .horizontal-line-google-intro {
     margin: 0rem 1rem;
-    border: 2px solid #ffe7d2;
+    border: 2px solid #a31621;
     height: 20px;
     margin: 0rem 0.5rem;
     transform: rotate(180deg);

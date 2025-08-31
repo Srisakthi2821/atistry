@@ -184,7 +184,11 @@
     color: white;
     border-radius: 100%;
     transition: color 0.3s ease;
-    padding:0.1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    max-height :2rem;
+    max-width:2rem;
   }
   .insta_footer_container:hover {
     color: white;

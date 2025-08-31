@@ -29,8 +29,8 @@
 .subHeading_c_details {
   font-size: 1.7rem;
   color: #1b294e;
-  margin: 0.3rem 0rem;
-  margin-top: 1rem;
+  margin: 0.1rem 0rem;
+  margin-top: 0.5rem;
 }
 .form {
   display: flex;
@@ -117,7 +117,7 @@ input:focus {
   }
   .contact_details {
     max-width: 90vw;
-    height: 50vh;
+    height: 47vh;
     padding: 2rem;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.63);
@@ -154,7 +154,7 @@ input:focus {
   .contact_img {
     height: 30vh;    
     position: absolute;
-    top:16%;
+    top:29.5%;
     bottom:-200px;
     right: 0px;
   }
