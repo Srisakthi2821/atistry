@@ -24,7 +24,7 @@ const Footer = () => (
         our socials
       </p>
       <div className="contanier_social_links">
-        <a href="https://www.instagram.com/robby_artistry/" target="_blank" className="link"><div className="insta_footer_container">
+        <a href="https://www.instagram.com/robby_artistry/" target="_blank" className="link"><div className="insta_footer_container insta_icon">
           <FaInstagram className="icon_footer_links insta_footerIcon" />
         </div></a>
         <a href="https://wa.me/7200127265" target="_blank" className="link"><div  className="whatsapp_footer_container">

@@ -20,7 +20,7 @@ const App = () => {
     if (location.pathname === "/") {
       // show loader ONLY for home
       setLoading(true);
-      const timer = setTimeout(() => setLoading(false), 30); // 3 sec
+      const timer = setTimeout(() => setLoading(false), 50); // 3 sec
       return () => clearTimeout(timer);
     } else {
       setLoading(false);

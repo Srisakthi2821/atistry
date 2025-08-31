@@ -12,6 +12,7 @@ import { TbArrowBadgeRightFilled } from "react-icons/tb";
 import { MdVerified } from "react-icons/md";
 import ButtonHome from "../button_home";
 import ButtonHomeRed from "../button_home_2";
+import RecentArtWorks from '../carousel'
 import { GiTakeMyMoney, GiHalfHeart, GiTick } from "react-icons/gi";
 
 import home_main_img from "../../assets/home_main_img.png";
@@ -398,6 +399,7 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
           
             <Link to='/arts' className="link"><ButtonHome name={'View More'} className='button_home'/></Link>
         </div>
+        <RecentArtWorks/>
         <div className="get_your_art_container">
         <img src={paint_dot_1} alt="paint dot" className="paint_dot_image" data-aos="fade-right"/>
         <p className="dot_image_text">Matt<br/> Finish</p>

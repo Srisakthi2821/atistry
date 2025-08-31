@@ -1,0 +1,15 @@
+.sm_dev_recent_art_works {
+  display: none;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+@media only screen and (max-width: 380px) {
+  .sm_dev_recent_art_works {
+    display: block;
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+  .button_nxt_prev {
+    border-radius: 100%;
+  }
+}

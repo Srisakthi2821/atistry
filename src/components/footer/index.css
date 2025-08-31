@@ -174,12 +174,17 @@
     height: 2rem;
     width: 2rem;
   }
+  .insta_icon{
+    max-width :2rem;
+    max-height: 2rem;
+  }
 
   .insta_footer_container {
     background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
     color: white;
     border-radius: 100%;
     transition: color 0.3s ease;
+    padding:0.1rem;
   }
   .insta_footer_container:hover {
     color: white;
