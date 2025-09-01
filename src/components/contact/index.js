@@ -76,26 +76,26 @@ const Contact = () => {
         <div className="contact_details" data-aos="fade-up">
           <h1 className="heading_c_details">Contact Details</h1>
           <p className="para_c_details">
-            Robby artistry, no.64 mariyamman kovil street, orikkai, kanchipuram,
+            Robby Artistry, No.64 Mariyamman kovil street, Orikkai, kanchipuram,
             Tamilnadu - 631 502
           </p>
           <h1 className="subHeading_c_details">Whats App</h1>
           <p className="para_c_details">+91 72001 27265</p>
           <h1 className="subHeading_c_details">Social Links</h1>
           <div className="contanier_social_links">
-            <div className="insta_footer_container">
-              <FaInstagram className="icon_footer_links insta_footerIcon" />
-            </div>
-            <div className="whatsapp_footer_container">
-              <FaWhatsapp className="icon_footer_links" />
-            </div>
-            <div className="youtube_footer_container">
-              <FaYoutube className="icon_footer_links" />
-            </div>
-            <div className="facebook_footer_container">
-              <FaFacebook className="icon_footer_links" />
-            </div>
-          </div>
+        <a href="https://www.instagram.com/robby_artistry/" target="_blank" className="link"><div className="insta_footer_container insta_icon">
+          <FaInstagram className="icon_footer_links insta_footerIcon" />
+        </div></a>
+        <a href="https://wa.me/7200127265" target="_blank" className="link"><div  className="whatsapp_footer_container">
+          <FaWhatsapp className="icon_footer_links" />
+        </div></a>
+        <a href="https://www.youtube.com/@robbyartistry" target="_blank" className="link"><div  className="youtube_footer_container">
+          <FaYoutube className="icon_footer_links" />
+        </div></a>
+        <a href="https://www.facebook.com/share/19ZQgAXNKf/" target="_blank" className="link"><div  className="facebook_footer_container">
+          <FaFacebook className="icon_footer_links" />
+        </div></a>
+      </div>
         </div>
         <div className="form" data-aos="fade-up">
           <img loading='lazy' src={contact_img} className="contact_img" alt="contact" data-aos="slide-left"/>
@@ -137,14 +137,14 @@ const Contact = () => {
       <div className="container_map" data-aos="fade-up">
         <h1 className="heading_c_details">Find Us on Map!</h1>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.6321984257147!2d79.7049589748383!3d12.802369587497683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52c300373f6b23%3A0x8cf48088b4f04c4e!2sRobby%20Artistry!5e0!3m2!1sen!2sin!4v1756111468334!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3890.635299920467!2d79.70510547507358!3d12.80216858749782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDQ4JzA3LjgiTiA3OcKwNDInMjcuNyJF!5e0!3m2!1sen!2sin!4v1756696080215!5m2!1sen!2sin"
           className="google_map"
           style={{ border: 0 }}
           allowFullScreen
           referrerPolicy="no-referrer-when-downgrade"
           loading="eager" // 👈 loads immediately
         />
-      </div>
+       </div>
     </div>
   );
 };

@@ -244,19 +244,7 @@ const Arts = () => {
               />
               <button
                 onClick={closeImage}
-                style={{
-                  position: "absolute",
-                  top: "-40px",
-                  right: "-10px",
-                  background: "red",
-                  color: "white",
-                  border: "none",
-                  padding: "0.2rem",
-                  borderRadius: "50%",
-                  fontSize: "1rem",
-                  height: "1.5rem",
-                  cursor: "pointer",
-                }}
+                className="close_button_image_view"
               >
                 <IoMdClose />
               </button>
@@ -289,7 +277,7 @@ const Arts = () => {
               className="sub_card_card_art"
               onClick={() => openImage(eachImage)}
             >
-              Watch
+              View
               <span>
                 <FaEye />
               </span>
@@ -328,7 +316,7 @@ const Arts = () => {
               className="sub_card_card_art"
               onClick={() => openImage(eachImage)}
             >
-              Watch
+              View
               <span>
                 <FaEye />
               </span>
@@ -368,7 +356,7 @@ const Arts = () => {
               className="sub_card_card_art"
               onClick={() => openImage(eachImage)}
             >
-              Watch
+              View
               <span>
                 <FaEye />
               </span>
@@ -408,7 +396,7 @@ const Arts = () => {
               className="sub_card_card_art"
               onClick={() => openImage(eachImage)}
             >
-              Watch
+              View
               <span>
                 <FaEye />
               </span>

@@ -96,19 +96,16 @@ const Star = () => (
             photo frames, every piece I create is filled with detail, passion,
             and love.
             <br />
-            <br />
-            <br />
+
             Explore my diverse collection of artwork spanning different mediums
             and styles. Each piece tells a unique story through color, texture,
             and emotion.
-            <br />
-            <br />
             <br />
             My art is a reflection of moments, emotions, and perspectives,
             brought to life through colors and creativity. I explore various
             styles and techniques to craft timeless expressions that connect
             deeply with the viewer.
-            <br />
+            <br/>
             <br />✨ Art isn’t just a drawing — it’s a story that lives forever.
           </p>
         </div>

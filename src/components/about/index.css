@@ -8,7 +8,8 @@
   margin-left: 5rem;
 }
 .container_2_about {
-  width: 50vw;
+  width: 60vw;
+  max-height:60vh;
   padding: 2rem 0rem;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.474);
   padding: 1rem;
@@ -26,7 +27,7 @@
   font-size: 1.2rem;
   font-weight: 400;
   color: #0e1d32;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 .para_1_about span {
   font-size: 1.25rem;
@@ -39,6 +40,7 @@
 }
 .card_artist {
   height: 60vh;
+  max-height:60vh;
   margin: 0rem 4rem;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -103,7 +105,7 @@
 
 .google-intro-img {
   width: 55px;
-  height: 65px;
+  height: fit-content;
   margin-top: 0.5rem;
 }
 
@@ -123,8 +125,8 @@
 }
 
 .rating-star-intro {
-  width: 29.25px;
-  height: 29.25px;
+  width: 25px;
+  height: fit-content;
   border-radius: 0.75px;
 }
 
@@ -193,8 +195,8 @@
 }
 
 .image-corner-google-logo {
-  width: 27px;
-  height: 30px;
+  width: 30px;
+  height: fit-content;
 }
 
 .reviewer_logo {
@@ -239,7 +241,7 @@
   .container_1_about {
     width: 100vw;
     margin-left: 3.5rem;
-    margin-top:20rem;
+    margin-top: 20rem;
   }
   .container_2_about {
     min-width: 80vw;
@@ -267,20 +269,20 @@
   .container_items_about {
     display: flex;
     flex-direction: column;
-      align-items: center;
+    align-items: center;
     justify-content: center;
     padding: 0.5rem 0rem;
-    height:100%;
+    height: 100%;
   }
   .card_artist {
     height: 50vh;
-    width:80vw;
+    width: 80vw;
     border-radius: 20px;
     border: 1px solid #0e1d32;
     border-top: 5px solid #0e1d32;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.474);
     padding: 0.2rem;
-    margin:1rem 0rem;
+    margin: 1rem 0rem;
   }
   .artist_image {
     width: 100%;
@@ -315,16 +317,16 @@
     gap: 40px;
   }
   .google-reviews-container {
-      background-color: white;
-  border-radius: 20px;
-  box-shadow: 0px 0px 0px -5px black;
-  padding: 2rem 1rem;
-  margin: 1rem 2.2rem;
-  margin-top:25rem;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px -5px black;
+    padding: 2rem 1rem;
+    margin: 1rem 2.2rem;
+    margin-top: 25rem;
   }
   .google-intro-img {
     width: 60px;
-    height:fit-content;
+    height: fit-content;
     margin-right: 20px;
   }
   .google-intro-container {
@@ -362,10 +364,10 @@
     gap: 14px;
     border-radius: 20px;
     padding: 5px;
-    border:1px solid black;
+    border: 1px solid black;
   }
   .image-corner-google-logo {
-    height: 30px;
+    height: fit-content;
     width: 25px;
   }
   .google-logo-corner {
@@ -374,12 +376,15 @@
   .para-reviewer-google {
     font-size: 0.9rem !important;
   }
+  .ratings_reviewer-google {
+    display: flex;
+  }
 
-.rating-star-intro {
-  min-width: 26px;
-  height: 29.25px;
-  border-radius: 0.75px;
-}
+  .rating-star-intro {
+    min-width: 26px;
+    height: fit-content;
+    border-radius: 0.75px;
+  }
   /* Find us container */
   .find-us-container {
     padding: 1rem;

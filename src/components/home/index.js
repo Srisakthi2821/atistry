@@ -211,7 +211,7 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
         <div className="recently_sold_container">
           <img loading='lazy' src={recentSoldImage} alt='Recently Sold Image' className="recently_sold_image"/>
           <div className="part_2_recently_sold">
-            <h1><span>{recentSoldName}</span> from <span>{recentSoldPlace}</span> has recently bought the <span>{recentSoldCategory}</span> From Robby Artistry.</h1>
+            <h1><span>{recentSoldName}</span> from <span>{recentSoldPlace}</span> has recently bought the <span>{recentSoldCategory}</span> from Robby Artistry.</h1>
             <p>Booked a Slot Now <span><MdVerified className="verified_rece_sold"/></span></p>
               <img loading='lazy' src={booked_img} alt='booked' className="booked_img"/>
           </div>
