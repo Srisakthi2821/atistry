@@ -35,7 +35,9 @@ import logo_transparent from '../../assets/logo_transparent.png'
 import blood_art from "../../assets/blood_art.mp4";
 import imaginary_arts from "../../assets/imaginary_arts.mp4";
 import photo_frames from "../../assets/photo_frames.mp4";
-import Digital_arts from '../../assets/Digital_arts.mp4'
+import Digital_arts from '../../assets/Digital_arts.mp4';
+import pencil_art from '../../assets/pencil_art.mp4';
+import coffee_cups from '../../assets/coffee_cups.mp4'
 
 
 import recent_arts_1 from '../../assets/arts/recent_arts_1.jpg'
@@ -237,7 +239,7 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
               {" "}
             </video>
             <div className="subCategory_card_cont">
-              <p className="card_desc">Blood & Pencil Art</p>
+              <p className="card_desc">Blood Art</p>
               <a href="https://wa.me/917200127265?text=I%20want%20to%20order%20Blood%20Art" target="_blank"><button className="subCategory_card_cont_button">
                 Order Now
               </button>
@@ -282,6 +284,9 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
             </div>
           </div> 
           <div className="card_category" data-aos="fade-up">
+          <div className="new_tag">
+            <p>New</p>
+          </div>
             <video
               src={Digital_arts}
               className="video_categorY_card"
@@ -299,7 +304,46 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
               </button></a>
             </div>
           </div> 
- 
+           <div className="card_category" data-aos="fade-up">
+            <video
+              src={pencil_art}
+              className="video_categorY_card"
+              muted
+              autoPlay
+              loop
+              playsInline
+            >
+              {" "}
+            </video>
+            <div className="subCategory_card_cont">
+              <p className="card_desc">Pencil Art</p>
+              <a href="https://wa.me/917200127265?text=I%20want%20to%20order%20Digital%20Art" target="_blank"><button className="subCategory_card_cont_button">
+                Order Now
+              </button></a>
+            </div>
+          </div> 
+           <div className="card_category" data-aos="fade-up">
+           <div className="new_tag">
+            <p>New</p>
+          </div>
+            <video
+              src={coffee_cups}
+              className="video_categorY_card"
+              muted
+              autoPlay
+              loop
+              playsInline
+            >
+              {" "}
+            </video>
+            <div className="subCategory_card_cont">
+              <p className="card_desc">Customized cups</p>
+              <a href="https://wa.me/917200127265?text=I%20want%20to%20order%20Digital%20Art" target="_blank"><button className="subCategory_card_cont_button">
+                Order Now
+              </button></a>
+            </div>
+          </div>
+
           </div>
         </div>
         <div className="why_choose_us_container">

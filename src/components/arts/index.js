@@ -11,6 +11,8 @@ import {
   GiEyeShield,
   GiEyeball,
   GiSettingsKnobs,
+  GiCoffeeCup,
+  GiTShirt,
 } from "react-icons/gi";
 import { FaEye } from "react-icons/fa";
 import ButtonHome from "../button_home";
@@ -209,6 +211,90 @@ const Arts = () => {
         </div>
       </div>
       <div className="section_2_arts">
+        <div className="arts_gall_icon_container pencil_art_icon_arts">
+          <span>
+            <GiPaintBucket />
+          </span>
+        </div>
+        <h1 className="heading_main_arts_container">
+          Photo Frame & Own Idea Art
+        </h1>
+      </div>
+      <div className="container_phframe">
+        <div className="customize_card_arts phframe_art_cont" data-aos="fade-up">
+          <div className="container_hot_custome_card">
+            <p>Hot sale🔥</p>
+          </div>
+          <div className="arts_gall_icon_container customize_arts_icon">
+            <span>
+              <GiWoodFrame />
+            </span>
+          </div>
+          <h1 className="heading_customize_arts phframe_card_heading">
+            Customize Your Photo Frame
+          </h1>
+          <p className="price_custom_design phframe_card_price">
+            <span>Start's From just</span> ₹149
+          </p>
+          <a href="https://wa.me/917200127265?text=I%20want%20to%20Customize%20Photo%20Frame,Can you please, Give me the more details about it?" target="_blank"><ButtonHome
+            name={"customize"}
+            className="button_home button_customize_card"
+          /></a>
+        </div>
+        <div className="customize_card_arts phframe_art_cont" data-aos="fade-up">
+          <div className="arts_gall_icon_container customize_arts_icon">
+            <span>
+              <GiSettingsKnobs />
+            </span>
+          </div>
+          <h1 className="heading_customize_arts phframe_card_heading">
+            Customize Your Art Idea
+          </h1>
+          <p className="price_custom_design phframe_card_price yourIdea_art_para">
+            <span>Made the way you want</span> 
+          </p>
+          <a href="https://wa.me/917200127265?text=I%20Have%20an%20Idea%20to%20implement%20my%20art,%20Can%20you%20work%20for%20It?" target="_blank"><ButtonHome
+            name={"Make Yours"}
+            className="button_home button_customize_card"
+          /></a>
+        </div>
+        <br/>
+        <div className="customize_card_arts phframe_art_cont" data-aos="fade-up">
+          <div className="arts_gall_icon_container customize_arts_icon">
+            <span>
+              <GiTShirt />
+            </span>
+          </div>
+          <h1 className="heading_customize_arts phframe_card_heading">
+            Customize Your Tshirt
+          </h1>
+          <p className="price_custom_design phframe_card_price">
+            <span>Start's From just</span> ₹
+          </p>
+          <a href="https://wa.me/917200127265?text=I%20want%20to%20Customize%20Tshirts,Can you please, Give me the more details about it?" target="_blank"><ButtonHome
+            name={"Customize"}
+            className="button_home button_customize_card"
+          /></a>
+        </div>
+        <div className="customize_card_arts phframe_art_cont" data-aos="fade-up">
+          <div className="arts_gall_icon_container customize_arts_icon">
+            <span>
+              <GiCoffeeCup />
+            </span>
+          </div>
+          <h1 className="heading_customize_arts phframe_card_heading">
+            Customize Your Coffee Cups
+          </h1>
+          <p className="price_custom_design phframe_card_price">
+            <span>Start's From just</span> ₹
+          </p>
+          <a href="https://wa.me/917200127265?text=I%20want%20to%20Customized%20Coffee%20Cups,Can you please, Give me the more details about it?" target="_blank"><ButtonHome
+            name={"Customize"}
+            className="button_home button_customize_card"
+          /></a>
+        </div>
+      </div>
+      <div className="section_2_arts">
         <div className="arts_gall_icon_container">
           <span>
             <GiWaterDrop />
@@ -403,57 +489,6 @@ const Arts = () => {
             </div>
           </div>
         ))}
-      </div>
-
-
-      <div className="section_2_arts">
-        <div className="arts_gall_icon_container pencil_art_icon_arts">
-          <span>
-            <GiPaintBucket />
-          </span>
-        </div>
-        <h1 className="heading_main_arts_container">
-          Photo Frame & Own Idea Art
-        </h1>
-      </div>
-      <div className="container_phframe">
-        <div className="customize_card_arts phframe_art_cont" data-aos="fade-up">
-          <div className="container_hot_custome_card">
-            <p>Hot sale🔥</p>
-          </div>
-          <div className="arts_gall_icon_container customize_arts_icon">
-            <span>
-              <GiWoodFrame />
-            </span>
-          </div>
-          <h1 className="heading_customize_arts phframe_card_heading">
-            Customize Your Photo Frame
-          </h1>
-          <p className="price_custom_design phframe_card_price">
-            <span>Start's From just</span> ₹149
-          </p>
-          <a href="https://wa.me/917200127265?text=I%20want%20to%20Customize%20Photo%20Frame,Can you please, Give me the more details about it?" target="_blank"><ButtonHome
-            name={"customize"}
-            className="button_home button_customize_card"
-          /></a>
-        </div>
-        <div className="customize_card_arts phframe_art_cont" data-aos="fade-up">
-          <div className="arts_gall_icon_container customize_arts_icon">
-            <span>
-              <GiSettingsKnobs />
-            </span>
-          </div>
-          <h1 className="heading_customize_arts phframe_card_heading">
-            Customize Your Art Idea
-          </h1>
-          <p className="price_custom_design phframe_card_price yourIdea_art_para">
-            <span>Made the way you want</span> 
-          </p>
-          <a href="https://wa.me/917200127265?text=I%20Have%20an%20Idea%20to%20implement%20my%20art,%20Can%20you%20work%20for%20It?" target="_blank"><ButtonHome
-            name={"Make Yours"}
-            className="button_home button_customize_card"
-          /></a>
-        </div>
       </div>
     </div>
   );
