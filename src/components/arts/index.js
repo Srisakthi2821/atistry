@@ -269,7 +269,7 @@ const Arts = () => {
             Customize Your Tshirt
           </h1>
           <p className="price_custom_design phframe_card_price">
-            <span>Start's From just</span> ₹
+            <span>Start's From just</span> ₹450
           </p>
           <a href="https://wa.me/917200127265?text=I%20want%20to%20Customize%20Tshirts,Can you please, Give me the more details about it?" target="_blank"><ButtonHome
             name={"Customize"}
@@ -289,7 +289,7 @@ const Arts = () => {
             Customize Your Coffee Cups
           </h1>
           <p className="price_custom_design phframe_card_price">
-            <span>Start's From just</span> ₹
+            <span>Start's From just</span> ₹250
           </p>
           <a href="https://wa.me/917200127265?text=I%20want%20to%20Customized%20Coffee%20Cups,Can you please, Give me the more details about it?" target="_blank"><ButtonHome
             name={"Customize"}
