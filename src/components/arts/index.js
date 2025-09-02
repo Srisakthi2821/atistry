@@ -277,6 +277,9 @@ const Arts = () => {
           /></a>
         </div>
         <div className="customize_card_arts phframe_art_cont" data-aos="fade-up">
+        <div className="new_tag">
+            <p>New</p>
+          </div>
           <div className="arts_gall_icon_container customize_arts_icon">
             <span>
               <GiCoffeeCup />
