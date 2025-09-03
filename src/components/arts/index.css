@@ -441,13 +441,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 0.5rem;
     padding-bottom: 3rem;
   }
   .phframe_art_cont {
-    min-width: 80vw;
-    min-height: 40vh;
+    min-width: 20vw;
+    max-width:47vw;
+    min-height: 30vh;
   }
   .phframe_art_cont:hover {
     background: #a31621;
@@ -455,27 +457,33 @@
     border-top: 5px solid #eee;
   }
   .phframe_card_heading {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .phframe_art_cont:hover .phframe_card_price {
     color: #102542;
   }
   .phframe_art_cont:hover .phframe_card_price span {
     color: white;
+    font-size:1rem;
+  }
+  .phframe_card_price{
+    font-size:0.8rem;
+  }
+  .phframe_card_price span{
+    font-size:0.7rem;
   }
   .container_hot_custome_card {
     position: absolute;
+    max-height:1rem;
     top: 0.2rem;
     right: 0.3rem;
-    height:1rem;
-    background-color: #a31621;
-    padding: 0.2rem 0.3rem;
-    padding-top: 0rem;
-    border-radius: 5px;
   }
   .container_hot_custome_card p {
     font-size:0.6rem;
     color: white;
+    height:fit-content;
+    padding:0rem;
+    background-color: #a31621;
   }
   .phframe_art_cont:hover .container_hot_custome_card {
     background-color: #102542;

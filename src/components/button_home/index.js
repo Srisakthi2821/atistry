@@ -129,12 +129,34 @@ const StyledWrapper = styled.div`
   /* 📱 Very small devices */
   @media (max-width: 370px) {
     .learn-more {
-      width: 12rem;
-      font-size: 0.8rem;
+      width: 9rem;
+      font-size: 0.6rem;
     }
 
     .learn-more:hover .circle .icon.arrow {
-      transform: translate(7.5rem, 0);
+      transform: translate(5.8rem, 0);
+    }
+
+    .circle {
+      width: 2rem;
+      height:2rem;
+    }
+    .button-text{
+      padding:0.45rem 0rem;
+    }
+
+    .icon.arrow {
+      left: 0.5rem;
+      width: 0.7rem;
+    }
+
+    .learn-more:hover .circle .icon.arrow {
+      transform: translate(6.9rem, 0);
+    }
+
+    .button-text {
+      margin-left: 1.5rem;
+      font-size: 0.7rem;
     }
   }
 `;

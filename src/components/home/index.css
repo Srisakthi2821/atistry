@@ -898,7 +898,7 @@ img {
 
 }
 .video_categorY_card {
-  height: 7.5vh;
+  height: 7.8vh;
   max-width:45vw;
   border-radius: 6px;
   z-index: 5;
@@ -924,7 +924,7 @@ img {
   background-color: #a31621;
 }
 .card_desc {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   color: #eee;
   margin:0.2rem;
   transition: 0.3s ease-in-out;

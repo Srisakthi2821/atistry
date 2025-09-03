@@ -205,8 +205,8 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
               </div>
             </div>
             <div className="home_button_container">
-              <Link to='/arts' className="link"><ButtonHomeRed className="button_home" name="View Our Arts" /></Link>
-              <Link to='/contact' className="link"><ButtonHome className="button_home" name="Place your order" /></Link>
+              <Link to='/arts' className="link"><ButtonHomeRed className="button_home" name="View Arts" /></Link>
+              <Link to='/contact' className="link"><ButtonHome className="button_home" name="Place order" /></Link>
             </div>
           </div>
         </div>
