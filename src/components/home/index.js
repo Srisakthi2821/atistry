@@ -356,7 +356,7 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
             className="wcu_paintBrush"
           />
           <div className="wcu_cards">
-            <div className="point" data-aos="fade-right">
+            <div className="point">
               <h3 className="point_heading">Affordable Prices</h3>
               <p className="point_para">
                 Get premium designs at the lowest cost without compromising
@@ -370,7 +370,7 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
                 />
               </div>
             </div>
-            <div className="point" data-aos="fade-up" >
+            <div className="point" >
               <h3 className="point_heading">Perfect Detailing</h3>
               <p className="point_para">
                 Every product is crafted with sharp attention to detail for the
@@ -384,7 +384,7 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
                 />
               </div>
             </div>
-            <div className="point" data-aos="fade-up">
+            <div className="point">
               <h3 className="point_heading">Easy Customization</h3>
               <p className="point_para">
                 Personalize your designs the way you want with a hassle-free
@@ -398,7 +398,7 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
                 />
               </div>
             </div>
-            <div className="point" data-aos="fade-left">
+            <div className="point">
               <h3 className="point_heading">Trusted Quality</h3>
               <p className="point_para">
                 Our products are made to last, with top-grade materials and

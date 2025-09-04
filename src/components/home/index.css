@@ -651,7 +651,7 @@ img {
 .logo_home_page{
   position:absolute;
   right:0rem;
-  top:11.5rem;
+  top:16rem;
   height:25vh;
 }
 
@@ -952,10 +952,11 @@ img {
 }
 .wcu_cards {
   display: flex;
-  flex-direction: column;
+  flex-direction: flex;
+  flex-wrap: wrap;
   align-items: center;
   position: relative;
-  gap:1.4rem;
+  gap:2rem 0.5rem;
   z-index: 10;
   padding:0rem;
   margin-top:-3rem;
@@ -963,9 +964,9 @@ img {
 .wcu_cards .point {
   border: 0.05rem solid #10254244;
   border-top: 5px solid #0e1d32;
-  margin: 0.5rem 1rem;
-  width: 13rem;
-  height:8.5rem;
+  width: 48%;
+  margin:0rem;
+  height:8.3rem;
   border-radius: 1.2rem;
   text-align: center;
   position: relative;
@@ -998,7 +999,7 @@ img {
   position: absolute;
   padding: 0.5rem;
   bottom: -22px;
-  right: 38%;
+  right: 30%;
   z-index: 1;
 }
 .point:hover {
