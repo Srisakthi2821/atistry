@@ -385,7 +385,7 @@ const{recentSoldImage,recentSoldName,recentSoldPlace,recentSoldCategory}=this.st
               </div>
             </div>
             <div className="point">
-              <h3 className="point_heading">Easy Customization</h3>
+              <h3 className="point_heading">Customization</h3>
               <p className="point_para">
                 Personalize your designs the way you want with a hassle-free
                 process.

@@ -68,7 +68,8 @@ const toggleSmNavActive = () => {
         )
       }
     </nav>
-      <div className={smNavActive?'navbar-links-sm-devices nav-active-sm-devices':'navbar-links-sm-devices'}>
+      <div className={smNavActive?'navbar-links-sm-devices nav-active-sm-devices container_sidebar':'navbar-links-sm-devices container_sidebar'}>
+      <div>
          <Link
           to="/"
           className={`navbar-link ${currentPath === "/" ? "active_navbar" : ""}`}
@@ -100,6 +101,19 @@ const toggleSmNavActive = () => {
           <img loading='lazy' src={contact_gif} alt="nav icon" />
           Contact
         </Link>
+        </div>
+        <div className="part2_sidebar">
+          <p
+          className='navbar-link'
+        >
+          Contact Us
+        </p>
+         <p
+          className='navbar-link-number'
+        >
+          +91 72001 27265
+        </p>
+        </div>
       </div>
       </>
   );
