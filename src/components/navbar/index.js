@@ -108,11 +108,11 @@ const toggleSmNavActive = () => {
         >
           Contact Us
         </p>
-         <p
+         <a className="link" href="https://wa.me/7200127265" target="_blank"><p
           className='navbar-link-number'
         >
           +91 72001 27265
-        </p>
+        </p></a>
         </div>
       </div>
       </>
